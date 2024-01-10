@@ -15,6 +15,7 @@ Import the motion blur module
 ```python
 from Blur import motion_blur, background_motion_blur
 ```
+
 ---
 Load an image
 ```python
