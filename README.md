@@ -21,7 +21,7 @@ img = Image.open('image.png')
 ```
 Basic motion blur
 ```python
-result = motion_blur(img)
+result = motion_blur(img, distance=200, amount=1.0)
 ```
 Background motion blur
 ```python
