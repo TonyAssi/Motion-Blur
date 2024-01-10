@@ -19,7 +19,7 @@ Import the motion blur module
 from Blur import motion_blur, background_motion_blur
 ```
 
-Load an image
+Load an image using the PIL library
 ```python
 img = Image.open('image.png')
 ```
