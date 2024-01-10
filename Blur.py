@@ -12,6 +12,9 @@ def pil_to_cv(img):
 
 
 def motion_blur(img, distance, amount):
+    # Convert to RGBA
+    img = img.convert('RGBA')
+    
     # Convert pil to cv
     cv_img = pil_to_cv(img)
 
