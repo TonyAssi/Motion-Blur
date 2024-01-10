@@ -38,4 +38,3 @@ Background motion blur
 result = background_motion_blur(img, distance_blur=100, amount_blur=0.75, amount_subject=1.0)
 ```
 ![](https://cdn.discordapp.com/attachments/1120417968032063538/1194683576709550080/bg_blur.png?ex=65b13ec8&is=659ec9c8&hm=d7e6b2c543518e7450ac25db5aa222a7f7f8047018ac2cca0df0a0d31468fa4f&)
----
