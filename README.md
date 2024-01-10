@@ -37,7 +37,8 @@ result = motion_blur(img, distance=100, amount=0.75)
 ---
 
 Background Motion Blur
-Only the background is motion blurred
+
+Only the background is motion blurred and the subject is unaffected
 ```python
 result = background_motion_blur(img, distance_blur=100, amount_blur=0.75, amount_subject=1.0)
 ```
