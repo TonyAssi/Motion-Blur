@@ -25,5 +25,5 @@ result = motion_blur(img, distance=200, amount=1.0)
 ```
 Background motion blur
 ```python
-result = background_motion_blur(img)
+result = background_motion_blur(img, distance_blur=200, amount_blur=1.0, amount_subject=1.0)
 ```
