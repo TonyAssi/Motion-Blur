@@ -20,6 +20,7 @@ Load an image
 img = Image.open('image.png')
 ```
 ![](https://cdn.discordapp.com/attachments/1120417968032063538/1194679023243120690/image-normal.png?ex=65b13a8b&is=659ec58b&hm=1510b72453dafba78d3068e02e043b0abed6314dd712845d7af6810d8b2a4da4&)
+---
 
 Basic motion blur
 ```python
