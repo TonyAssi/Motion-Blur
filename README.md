@@ -31,7 +31,7 @@ Basic motion blur
 result = motion_blur(img, distance=100, amount=0.75)
 ```
 - **distance** the distance of the motion blur
-- **amount** the amount of motion blur. 0.0 is none and 1.0 is full.
+- **amount** the amount of motion blur where 0.0 is none and 1.0 is full
   
 ![](https://cdn.discordapp.com/attachments/1120417968032063538/1194679612769304717/basic_blur.png?ex=65b13b17&is=659ec617&hm=ebfde91b36e9afb5e6066c44ed01b129c9a573c75f2cb4c74868dabf21cd17a5&)
 ---
@@ -40,4 +40,8 @@ Background motion blur
 ```python
 result = background_motion_blur(img, distance_blur=100, amount_blur=0.75, amount_subject=1.0)
 ```
+- ****distance_blur** the distance of the motion blur
+- **amount_blur** the amount of motion blur where 0.0 is none and 1.0 is full
+- **amount_subject** the opacity of the subject where 0.0 is no subject and 1.0 is full opacity
+
 ![](https://cdn.discordapp.com/attachments/1120417968032063538/1194683576709550080/bg_blur.png?ex=65b13ec8&is=659ec9c8&hm=d7e6b2c543518e7450ac25db5aa222a7f7f8047018ac2cca0df0a0d31468fa4f&)
