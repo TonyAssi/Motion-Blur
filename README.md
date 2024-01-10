@@ -32,6 +32,7 @@ result = motion_blur(img, distance=100, amount=0.75)
 ```
 - **distance** the distance of the motion blur
 - **amount** the amount of motion blur. 0.0 is none and 1.0 is full.
+  
 ![](https://cdn.discordapp.com/attachments/1120417968032063538/1194679612769304717/basic_blur.png?ex=65b13b17&is=659ec617&hm=ebfde91b36e9afb5e6066c44ed01b129c9a573c75f2cb4c74868dabf21cd17a5&)
 ---
 
