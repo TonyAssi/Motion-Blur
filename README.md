@@ -40,7 +40,7 @@ Background motion blur
 ```python
 result = background_motion_blur(img, distance_blur=100, amount_blur=0.75, amount_subject=1.0)
 ```
-- ****distance_blur** the distance of the motion blur
+- **distance_blur** the distance of the motion blur
 - **amount_blur** the amount of motion blur where 0.0 is none and 1.0 is full
 - **amount_subject** the opacity of the subject where 0.0 is no subject and 1.0 is full opacity
 
