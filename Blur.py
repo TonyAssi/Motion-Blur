@@ -27,8 +27,11 @@ def video_to_images(video_path, images_path):
     clip = mp.VideoFileClip(video_path)
     clip.audio.write_audiofile("./audio.mp3")
 
-    # Create folder for images
-    if not os.path.exists(images_path):
+     # Create folder for images
+    if not os.path.exists(images_path): 
+        os.makedirs(images_path)
+    else:
+        shutil.rmtree(images_path)
         os.makedirs(images_path)
 
     # Go through frames of video
@@ -160,6 +163,9 @@ def motion_blur_video(video_path, export_video_path, distance_blur, amount_blur,
     # Create folder for blur images
     blur_images_path =  './blur_images/'
     if not os.path.exists(blur_images_path):
+        os.makedirs(blur_images_path)
+    else:
+        shutil.rmtree(blur_images_path)
         os.makedirs(blur_images_path)
 
     # Go through image folder
