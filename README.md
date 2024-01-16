@@ -51,3 +51,18 @@ result = background_motion_blur(img, distance_blur=100, amount_blur=0.75, amount
 - **amount_subject** the opacity of the subject where 0.0 is no subject and 1.0 is full opacity
 
 ![](https://cdn.discordapp.com/attachments/1120417968032063538/1194683576709550080/bg_blur.png?ex=65b13ec8&is=659ec9c8&hm=d7e6b2c543518e7450ac25db5aa222a7f7f8047018ac2cca0df0a0d31468fa4f&)
+
+## Video
+Import the video motion blur module
+```python
+from Blur import motion_blur_video
+```
+**Video Motion Blur** 
+```python
+motion_blur_video(video_path='./test3.mov', export_video_path= './export-video.mp4', distance_blur=100, amount_blur=0.75, amount_subject=1.0)
+```
+- **video_path** source video
+- **export_video_path** path where the final video will be exported to
+- **distance_blur** the distance of the motion blur
+- **amount_blur** the amount of motion blur where 0.0 is none and 1.0 is full
+- **amount_subject** the opacity of the subject where 0.0 is no subject and 1.0 is full opacity
