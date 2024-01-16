@@ -8,6 +8,10 @@ Motion blur module in Python. Supports Basic Motion Blur and a special Backgroun
 ```bash
 pip install -r requirements.txt
 ```
+If your getting ffmpeg errors then try installing with conda or one of these [solutions](https://github.com/Zulko/moviepy/issues/1158)
+```bash
+conda install ffmpeg
+```
 
 ## Usage
 Import PIL
