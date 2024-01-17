@@ -137,9 +137,10 @@ def background_motion_blur(background, distance_blur, amount_blur, amount_subjec
 
     # Blur the background
     background_blur = motion_blur(background, distance_blur, amount_blur)
-    
+
     # Put the subject on top of the blur background
-    subject_on_blur_background = Image.alpha_composite(background_blur, subject)
+    subject_on_blur_background = background_blur.copy()
+    subject_on_blur_background.paste(background, (0,0), subject)
 
     # Blend the subject and the blur background
     result = Image.blend(background_blur, subject_on_blur_background, amount_subject)
@@ -147,7 +148,7 @@ def background_motion_blur(background, distance_blur, amount_blur, amount_subjec
     return result
 
 
-def motion_blur_video(video_path, export_video_path, distance_blur, amount_blur, amount_subject):
+def video_motion_blur(video_path, export_video_path, distance_blur, amount_blur, amount_subject):
     # Image folder
     images_path = './images/'
 
@@ -190,3 +191,4 @@ def motion_blur_video(video_path, export_video_path, distance_blur, amount_blur,
     # Delete temp folders
     shutil.rmtree(images_path)
     shutil.rmtree(blur_images_path)
+
