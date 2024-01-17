@@ -55,7 +55,7 @@ result = background_motion_blur(img, distance_blur=100, amount_blur=0.75, amount
 ## Video
 Import the video motion blur module
 ```python
-from Blur import motion_blur_video
+from Blur import video_motion_blur
 ```
 **Video Motion Blur** 
 ```python
