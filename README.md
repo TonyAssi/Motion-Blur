@@ -59,7 +59,7 @@ from Blur import motion_blur_video
 ```
 **Video Motion Blur** 
 ```python
-motion_blur_video(video_path='video.mp4', export_video_path= 'export-video.mp4', distance_blur=100, amount_blur=0.75, amount_subject=1.0)
+video_motion_blur(video_path='video.mp4', export_video_path= 'export-video.mp4', distance_blur=100, amount_blur=0.75, amount_subject=1.0)
 ```
 - **video_path** source video
 - **export_video_path** path where the final video will be exported to
