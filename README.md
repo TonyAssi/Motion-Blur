@@ -50,7 +50,7 @@ result = background_motion_blur(img, distance_blur=100, amount_blur=0.75, amount
 - **amount_blur** the amount of motion blur where 0.0 is none and 1.0 is full
 - **amount_subject** the opacity of the subject where 0.0 is no subject and 1.0 is full opacity
 
-![](https://cdn.discordapp.com/attachments/1120417968032063538/1194683576709550080/bg_blur.png?ex=65b13ec8&is=659ec9c8&hm=d7e6b2c543518e7450ac25db5aa222a7f7f8047018ac2cca0df0a0d31468fa4f&)
+![](https://cdn.discordapp.com/attachments/1120417968032063538/1199042638926598184/bg_blur_2.png?ex=65c11a7a&is=65aea57a&hm=6c3957e11e0fdcdb58c94e7bdfbc0fc13dd95ab3dca2eceb2ecebbad04164efb&)
 
 ## Video
 Import the video motion blur module
