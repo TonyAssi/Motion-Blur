@@ -37,7 +37,7 @@ result = motion_blur(img, distance=100, amount=0.75)
 - **distance** the distance of the motion blur
 - **amount** the amount of motion blur where 0.0 is none and 1.0 is full
   
-![](https://cdn.discordapp.com/attachments/1120417968032063538/1194679612769304717/basic_blur.png?ex=65b13b17&is=659ec617&hm=ebfde91b36e9afb5e6066c44ed01b129c9a573c75f2cb4c74868dabf21cd17a5&)
+![basic_blur](https://github.com/TonyAssi/Motion-Blur/assets/42156881/9c5bb668-7854-46bc-8a05-972936ef794f)
 ---
 
 **Background Motion Blur** 
@@ -50,7 +50,8 @@ result = background_motion_blur(img, distance_blur=100, amount_blur=0.75, amount
 - **amount_blur** the amount of motion blur where 0.0 is none and 1.0 is full
 - **amount_subject** the opacity of the subject where 0.0 is no subject and 1.0 is full opacity
 
-![](https://cdn.discordapp.com/attachments/1120417968032063538/1199042638926598184/bg_blur_2.png?ex=65c11a7a&is=65aea57a&hm=6c3957e11e0fdcdb58c94e7bdfbc0fc13dd95ab3dca2eceb2ecebbad04164efb&)
+![bg_blur_2](https://github.com/TonyAssi/Motion-Blur/assets/42156881/ec427d2c-a84e-4184-abc9-8bcd324d446e)
+
 
 ## Video
 Import the video motion blur module
