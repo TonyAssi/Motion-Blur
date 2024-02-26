@@ -27,7 +27,7 @@ Load an image using the PIL library
 ```python
 img = Image.open('image.png')
 ```
-![](https://cdn.discordapp.com/attachments/1120417968032063538/1194679023243120690/image-normal.png?ex=65b13a8b&is=659ec58b&hm=1510b72453dafba78d3068e02e043b0abed6314dd712845d7af6810d8b2a4da4&)
+![image-normal](https://github.com/TonyAssi/Motion-Blur/assets/42156881/fdbc9fd1-17a5-4276-9f87-002034632a56)
 ---
 
 **Basic Motion Blur**
